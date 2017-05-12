@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8676277F1DCE48630084486A /* difficultyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8676277B1DCE48630084486A /* difficultyButton.png */; };
+		867627801DCE48630084486A /* GameButtons.sketch in Resources */ = {isa = PBXBuildFile; fileRef = 8676277C1DCE48630084486A /* GameButtons.sketch */; };
+		867627811DCE48630084486A /* loose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8676277D1DCE48630084486A /* loose.mp3 */; };
+		867627821DCE48630084486A /* newGameButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8676277E1DCE48630084486A /* newGameButton.png */; };
 		86CEE2091D9FC6210096FC63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CEE2081D9FC6210096FC63 /* AppDelegate.swift */; };
 		86CEE20B1D9FC6210096FC63 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86CEE20A1D9FC6210096FC63 /* GameScene.sks */; };
 		86CEE20D1D9FC6210096FC63 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86CEE20C1D9FC6210096FC63 /* Actions.sks */; };
@@ -28,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8676277B1DCE48630084486A /* difficultyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = difficultyButton.png; sourceTree = "<group>"; };
+		8676277C1DCE48630084486A /* GameButtons.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameButtons.sketch; sourceTree = "<group>"; };
+		8676277D1DCE48630084486A /* loose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loose.mp3; sourceTree = "<group>"; };
+		8676277E1DCE48630084486A /* newGameButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newGameButton.png; sourceTree = "<group>"; };
 		86CEE2051D9FC6210096FC63 /* SpacegameReloaded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacegameReloaded.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CEE2081D9FC6210096FC63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86CEE20A1D9FC6210096FC63 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -61,6 +69,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8676277A1DCE48630084486A /* AssetsPart2 */ = {
+			isa = PBXGroup;
+			children = (
+				8676277B1DCE48630084486A /* difficultyButton.png */,
+				8676277C1DCE48630084486A /* GameButtons.sketch */,
+				8676277D1DCE48630084486A /* loose.mp3 */,
+				8676277E1DCE48630084486A /* newGameButton.png */,
+			);
+			path = AssetsPart2;
+			sourceTree = "<group>";
+		};
 		86CEE1FC1D9FC6210096FC63 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +99,7 @@
 		86CEE2071D9FC6210096FC63 /* SpacegameReloaded */ = {
 			isa = PBXGroup;
 			children = (
+				8676277A1DCE48630084486A /* AssetsPart2 */,
 				86CEE2081D9FC6210096FC63 /* AppDelegate.swift */,
 				86CEE2101D9FC6210096FC63 /* GameViewController.swift */,
 				9E61B32C1DCB5E6E0094E659 /* Game Over */,
@@ -180,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86CEE2001D9FC6210096FC63 /* Build configuration list for PBXProject "SpacegameReloaded" */;
+			buildConfigurationList = 86CEE2001D9FC6210096FC63 /* Build configuration list for PBXProject "spacegamereloaded" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -203,16 +223,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867627801DCE48630084486A /* GameButtons.sketch in Resources */,
 				86CEE2231D9FC6550096FC63 /* torpedo.mp3 in Resources */,
 				9E61B3291DCB5CD70094E659 /* GameOverScene.sks in Resources */,
+				8676277F1DCE48630084486A /* difficultyButton.png in Resources */,
 				9E61B3271DCB5A930094E659 /* loose.mp3 in Resources */,
 				86CEE2271D9FC6770096FC63 /* spark.png in Resources */,
 				86CEE22B1D9FC6AB0096FC63 /* Starfield.sks in Resources */,
 				9E61B31F1DCB46680094E659 /* MenuScene.sks in Resources */,
 				86CEE2221D9FC6550096FC63 /* explosion.mp3 in Resources */,
+				867627811DCE48630084486A /* loose.mp3 in Resources */,
 				86CEE2141D9FC6210096FC63 /* Main.storyboard in Resources */,
 				86CEE20B1D9FC6210096FC63 /* GameScene.sks in Resources */,
 				86CEE2161D9FC6210096FC63 /* Assets.xcassets in Resources */,
+				867627821DCE48630084486A /* newGameButton.png in Resources */,
 				86CEE2191D9FC6210096FC63 /* LaunchScreen.storyboard in Resources */,
 				86CEE20D1D9FC6210096FC63 /* Actions.sks in Resources */,
 				86CEE22A1D9FC6AB0096FC63 /* Explosion.sks in Resources */,
@@ -356,7 +380,7 @@
 				DEVELOPMENT_TEAM = SBWZW765RG;
 				INFOPLIST_FILE = SpacegameReloaded/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brianAdvent.SpacegameReloaded;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffreykwok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -369,7 +393,7 @@
 				DEVELOPMENT_TEAM = SBWZW765RG;
 				INFOPLIST_FILE = SpacegameReloaded/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brianAdvent.SpacegameReloaded;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffreykwok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -378,7 +402,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86CEE2001D9FC6210096FC63 /* Build configuration list for PBXProject "SpacegameReloaded" */ = {
+		86CEE2001D9FC6210096FC63 /* Build configuration list for PBXProject "spacegamereloaded" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86CEE21B1D9FC6210096FC63 /* Debug */,
